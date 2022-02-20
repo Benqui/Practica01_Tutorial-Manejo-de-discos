@@ -19,14 +19,14 @@ Es la particion virtualizada de una maquina virtual, el rendimiento es mejor  ya
 ## 2.Como montar y desmontar un usb en el sistema por teminal?
 Hay dos formas en las cuales puedes montar una memoria USB, la primera es sin tener permisos de lectura y escritura y la otra es con los permisos, lo unico que va   a cambiar es la linea de comando al momento de montar la memoria USB:
 
-1.Conectar la memoria USB y abrir una terminal    
-2.Crear una carpeta donde montar la memoria USB con el comando ```mkdir nombre_del_archivo``` y dentro de esa carpeta creamos otra carpeta donde haremos el montaje    
-3.En terminal escribir: ```lsblk``` para ver una lista de particiones e identificar que particion es tu usb    
-4.Una vez identificado tienes que escribir ```sudo blkid``` para saber el sistema de archivo que maneja en este ejemplo *sda2* tiene un tipo de sistema *vfat*    
-5.Aqui vamos a hacer el montaje de la USB:
-    -Para el montaje sin permisos de lectura y escritura el comando es el siguiente ```sudo mount -t "tipo sistema de archivo" /dev/sd# ./Direccion donde lo vas a montar```    
-    -Para el montaje con permisos de lectura y escritura es asi ```sudo mount -t "tipo sistema de archivo" -o rw,umask=0 /dev/sd# ./Direccion donde lo vas a montar```    
-6.Para desmontar un USB el comando es el siguiente ```sudo umount /dev/sd#```    
+1. Conectar la memoria USB y abrir una terminal    
+2. Crear una carpeta donde montar la memoria USB con el comando ```mkdir nombre_del_archivo``` y dentro de esa carpeta creamos otra carpeta donde haremos el montaje    
+3. En terminal escribir: ```lsblk``` para ver una lista de particiones e identificar que particion es tu usb    
+4. Una vez identificado tienes que escribir ```sudo blkid``` para saber el sistema de archivo que maneja en este ejemplo *sda2* tiene un tipo de sistema *vfat*    
+5. Aqui vamos a hacer el montaje de la USB:
+    - Para el montaje sin permisos de lectura y escritura el comando es el siguiente ```sudo mount -t "tipo sistema de archivo" /dev/sd# ./Direccion donde lo vas a montar```    
+    - Para el montaje con permisos de lectura y escritura es asi ```sudo mount -t "tipo sistema de archivo" -o rw,umask=0 /dev/sd# ./Direccion donde lo vas a montar```    
+6. Para desmontar un USB el comando es el siguiente ```sudo umount /dev/sd#```    
 
 
 ## 3.Como enlistar la informacion de los dispositivos de bloque conectados aunque no esten conectados?
