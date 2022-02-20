@@ -17,6 +17,11 @@ El (Small computer sistem interface disk) sda es para dispositivos de almacenami
 Es la particion virtualizada de una maquina virtual, el rendimiento es mejor  ya que el hipervisor no tiene que emular ninguna interfaz de hardware
 
 ## 2.Como montar y desmontar un usb en el sistema por teminal?
+Hay dos formas en las cuales puedes montar una memoria USB, la primera es sin tener permisos de lectura y escritura y la otra es con los permisos, lo unico que va   a cambiar es la linea de comando al momento de montar la memoria USB:
+
+1.Conectar la memoria USB y abrir una terminal
+2.En terminal escribir: ```lsblk``` para ver una lista de particiones e identificar que particion es tu usb
+3.Una vez identificado tienes que escribir ```sudo blkid``` 
 
 ## 3.Como enlistar la informacion de los dispositivos de bloque conectados aunque no esten conectados?
 
