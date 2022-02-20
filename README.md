@@ -9,6 +9,12 @@ Este es un tutoria para poder manejar
 
 
 ## 1.Que es hda, sda y vda?
+### hda es...
+    Es la unidad maestra en el controlador IDE principal, linux toma el primer disco duro como un disco duro completo 
+### sda es...
+    El (Small computer sistem interface disk) sda es para dispositivos de almacenamiento tales como discos duros mecanicos, memorias ssd, usbs, etc; que soportan comandos SCSI, la conexion es manejada por el subsistema SCSI que tiene el kernel
+### vda es...
+    Es la particion virtualizada de una maquina virtual, el rendimiento es mejor  ya que el hipervisor no tiene que emular ninguna interfaz de hardware
 
 ## 2.Como montar y desmontar un usb en el sistema por teminal?
 
