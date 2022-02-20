@@ -30,6 +30,10 @@ Hay dos formas en las cuales puedes montar una memoria USB, la primera es sin te
 
 
 ## 3.Como enlistar la informacion de los dispositivos de bloque conectados aunque no esten conectados?
+Existen 3 comandos con las cuales se puede realizar un listado de dispositivos de bloques esten montados o no lo esten:
+1. Usando el comando ```lsblk```, con este comando se va a mostrar un el listado de dispositivos de bloques 
+2. Usando el comando ```sudo blkid```
+3. Usando el comando ```sudo fdisk -l```
 
 ## 4.Como mostrar la tabla de particiones del disco donde esta instalado el sistema operativo en terminal?
 
