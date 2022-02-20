@@ -41,6 +41,11 @@ Para esto usamoes el comando ```sudo fdisk -l``` sirve para ver las particiones 
 Aqui podemos ver que particion es el boot, donde esta instalado tu sistema operativo, etc.    
 
 ## 5.Como conectar una memoria USB y mostrar su tabla de particiones en terminal?
+Seguimos los pasos para montar una memoria usb del paso 2, para despues una vez montada la USB tienes que hacer lo que hicimos en el paso 4 pero ahora con el bloque de dispositivo que tiene asignada la memoria USB    
+[inserte imagen aca]    
+
+
+
 
 ## 6.Como borrar todas las particiones de un USB en terminal?
 
