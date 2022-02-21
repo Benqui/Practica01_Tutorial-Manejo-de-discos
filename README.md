@@ -61,6 +61,7 @@ Seguimos los pasos para montar una memoria usb del paso 2, para despues una vez 
     - Para comprobar que si se creo la particion imprimimos la lista con la letra ```p```
 * Creamos 2 particiones mas
 * Ahora para crear una particion extendida seleccionamos ```n``` y ahora escogemos la opcion ```e``` que es la opcion extendida y damos enter ya que solo nos queda una particion damos ```Enter``` __First Sector__ damos ```Enter```, para __Last Sector__ igual damos ```Enter``` para dejar de default lo que queda de la memoria de la USB
+* Damos ```w``` para salir y guardar las particiones
 * Ahora ya tenemos las 3 particiones fisicas y la extendida
 
 ## 8.Como crear una particion dentro de la particion extendida del USB en terminal?
