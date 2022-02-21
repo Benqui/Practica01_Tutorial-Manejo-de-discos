@@ -36,7 +36,7 @@ Existen 3 comandos con las cuales se puede realizar un listado de dispositivos d
 3. Usando el comando ```sudo fdisk -l```, con este comando muestra cosas como el tipo de etiqueta de disco, el indetidicador y las particiones que tiene con el espacio que ocupan, basicamente muestra las tablas de particiones de los discos
 
 ## 4.Como mostrar la tabla de particiones del disco donde esta instalado el sistema operativo en terminal?
-Para esto usamoes el comando ```sudo fdisk -l``` sirve para ver las particiones de los dispositivos de bloques, para ver de manera especifica tienes que agregar como argumento a parte la direccion en este caso de donde esta instalado, esto se puede sabes con las instrucciones que vimos en el punto anterior, el comando que usas entonces es ```sudo fdisk -l /dev/direccion donde esta instalado el sistema operativo```    
+Para esto usamos el comando ```sudo fdisk -l``` sirve para ver las particiones de los dispositivos de bloques, para ver de manera especifica tienes que agregar como argumento a parte la direccion en este caso de donde esta instalado, esto se puede sabes con las instrucciones que vimos en el punto anterior, el comando que usas entonces es ```sudo fdisk -l /dev/direccion donde esta instalado el sistema operativo```    
 [inserte imagen aqui]    
 Aqui podemos ver que particion es el boot, donde esta instalado tu sistema operativo, etc.    
 
@@ -71,7 +71,7 @@ Seguimos los pasos para montar una memoria usb del paso 2, para despues una vez 
 * Puedes repetir el proceso dependiendo si te queda espacio en la memoria extendida
 * *OJO* si borras la particion extrendida *Se borraran las particiones logicas que hayas creado*, las puedes recuperar si sale si y no guardas los cambios
 
-## 9.Como borrar las particiones para que solo exista una particion que abasque toda la usb por la interfaz grafica disks?
+## 9.Como borrar las particiones para que solo exista una particion que abarque toda la usb por la interfaz grafica disks?
 * Como estamos usando ubuntu, tenemos un programa llamado __disks__ que es para crear, borrar, eliminar y cambiar el tamaño de las particiones
 * Lo vamos a buscar en el menu de programas y damos ```enter``` 
 * Ya en la terminal buscamos nuestra memoria USB y empezaremos con la eliminación de las particiones que hemos creado para solo tener solo una particion
@@ -83,3 +83,5 @@ Seguimos los pasos para montar una memoria usb del paso 2, para despues una vez 
 * Saldra una ventana que nos dira cuanta memoria queremos agregarle y le damos a abarcar todo el espacio libre
 
 ## 10.Como copiar una archivo .iso de distribucion live de linux a una USB por medio del comando "dd"?
+* Primero necesitamos descargar una iso, en este caso usamos la iso de Ubuntu que se guardo en la carpeta de descargas.
+* Una vez descargada conectamos la usb y realizamos el siguiente comando en la terminal escribirmos ```sudo dd if=/[Direccions del iso] of=/[Nombre de la particion] satatus progress``` 
