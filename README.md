@@ -59,12 +59,19 @@ Seguimos los pasos para montar una memoria usb del paso 2, para despues una vez 
 ## 6.Como borrar todas las particiones de un USB en terminal?
 * Para esto vamos a usar el comando ```sudo fdisk /dev/sd#```    
 * Se vera que ahora es diferente como se ve la teminal, ahora se ve asi    
+![Parte 1](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part5_1.jpg)    
 * Esta es la lista de comandos que podemos desplegar con la leta ```m```   
+![Parte 2](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part5_2.jpg)    
 * Lo que vamos a hacer es borrar las particiones que tenemos, que en este caso tenemos 3 particiones a borrar
+![Parte 3](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part5_3.jpg)    
 * Como muestra la lista de comandos para borrar tenemos que usar el comando ```d``` y sale lo siguiente:
+![Parte 4](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part5_4.jpg)    
 * Te va a dar a escoger que particion quieres eliminar una vez seleccionado puedes comprobar que se elimino usando el comando ```p```
+![Parte 5](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part5_5.jpg)    
 * Una vez eliminadas todas las particiones usas el comando ```w``` para salir y guardar los cambios
+![Parte 8](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part5_8.jpg)    
 * *OJO* cabe destacar que solo tienes que tener la USB *conectada* pero *NO MONTADA* por que sino te va a marcar error al querer guardar los cambios a las tablas de las particiones
+![Parte 9](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part5_9.jpg)    
 
 ## 7.Como crear en el USB tres particiones fisicsa y una extendida en terminal?
 * Empezamos con el comando ```sudo fdisk /dev/sd#```
