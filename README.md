@@ -21,6 +21,7 @@ Hay dos formas en las cuales puedes montar una memoria USB, la primera es sin te
 
 1. Conectar la memoria USB y abrir una terminal    
 2. Crear una carpeta donde montar la memoria USB con el comando ```mkdir nombre_del_archivo``` y dentro de esa carpeta creamos otra carpeta donde haremos el montaje    
+![Parte 5](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part1_5.jpg)
 3. En terminal escribir: ```lsblk``` para ver una lista de particiones e identificar que particion es tu usb    
 4. Una vez identificado tienes que escribir ```sudo blkid``` para saber el sistema de archivo que maneja en este ejemplo *sda2* tiene un tipo de sistema *vfat*    
 5. Aqui vamos a hacer el montaje de la USB:
@@ -84,4 +85,5 @@ Seguimos los pasos para montar una memoria usb del paso 2, para despues una vez 
 
 ## 10.Como copiar una archivo .iso de distribucion live de linux a una USB por medio del comando "dd"?
 * Primero necesitamos descargar una iso, en este caso usamos la iso de Ubuntu que se guardo en la carpeta de descargas.
-* Una vez descargada conectamos la usb y realizamos el siguiente comando en la terminal escribirmos ```sudo dd if=/[Direccions del iso] of=/[Nombre de la particion] satatus progress``` 
+* Una vez descargada conectamos la usb y realizamos el siguiente comando en la terminal escribirmos ```sudo dd if=/[Direccions del iso] of=/[Nombre de la particion] satatus progress```     
+
