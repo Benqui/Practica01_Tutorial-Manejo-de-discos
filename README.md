@@ -71,6 +71,15 @@ Seguimos los pasos para montar una memoria usb del paso 2, para despues una vez 
 * Puedes repetir el proceso dependiendo si te queda espacio en la memoria extendida
 * *OJO* si borras la particion extrendida *Se borraran las particiones logicas que hayas creado*, las puedes recuperar si sale si y no guardas los cambios
 
-## 9.Como borrar las particiones para que solo exista una particion que abasque toda la usb por la interfaz grafica?
+## 9.Como borrar las particiones para que solo exista una particion que abasque toda la usb por la interfaz grafica disks?
+* Como estamos usando ubuntu, tenemos un programa llamado __disks__ que es para crear, borrar, eliminar y cambiar el tamaño de las particiones
+* Lo vamos a buscar en el menu de programas y damos ```enter``` 
+* Ya en la terminal buscamos nuestra memoria USB y empezaremos con la eliminación de las particiones que hemos creado para solo tener solo una particion
+* Vamos a empezar eliminando la particion extendida que por ende va a borrar las particiones lógicas que hemos creado, para esto damos click sobre la __particion numero 4__ y damos click al boton de __menos__
+* Saldra una ventana que nos dira si estamos seguros de eliminar la particion y esperamos a que se elimine
+* Ahora haremos lo mismo con las particions __2__ y __3__ 
+* Una vez que tenemos solo una particion y mucho espacio libre 
+* Vamos a seleccionar la particion numero 1 y damos click al boton de los engranes (configuracion) y seleccionamos __resize__
+* Saldra una ventana que nos dira cuanta memoria queremos agregarle y le damos a abarcar todo el espacio libre
 
 ## 10.Como copiar una archivo .iso de distribucion live de linux a una USB por medio del comando "dd"?
