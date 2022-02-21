@@ -101,14 +101,25 @@ Seguimos los pasos para montar una memoria usb del paso 2, para despues una vez 
 
 ## 9.Como borrar las particiones para que solo exista una particion que abarque toda la usb por la interfaz grafica disks?
 * Como estamos usando ubuntu, tenemos un programa llamado __disks__ que es para crear, borrar, eliminar y cambiar el tamaño de las particiones
+![Parte 1](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part8_1.jpg)     
 * Lo vamos a buscar en el menu de programas y damos ```enter``` 
+![Parte 2](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part8_2.jpg)     
 * Ya en la terminal buscamos nuestra memoria USB y empezaremos con la eliminación de las particiones que hemos creado para solo tener solo una particion
+![Parte 3](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part8_3.jpg)     
 * Vamos a empezar eliminando la particion extendida que por ende va a borrar las particiones lógicas que hemos creado, para esto damos click sobre la __particion numero 4__ y damos click al boton de __menos__
+![Parte 4](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part8_4.jpg)     
 * Saldra una ventana que nos dira si estamos seguros de eliminar la particion y esperamos a que se elimine
+![Parte 5](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part8_5.jpg)     
 * Ahora haremos lo mismo con las particions __2__ y __3__ 
 * Una vez que tenemos solo una particion y mucho espacio libre 
+![Parte 6](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part8_6.jpg)     
 * Vamos a seleccionar la particion numero 1 y damos click al boton de los engranes (configuracion) y seleccionamos __resize__
+![Parte 7](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part8_7.jpg)     
+![Parte 8](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part8_8.jpg)     
 * Saldra una ventana que nos dira cuanta memoria queremos agregarle y le damos a abarcar todo el espacio libre
+![Parte 9](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part8_10.jpg)     
+![Parte 10](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part8_10.jpg)     
+![Parte 11](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part8_11.jpg)     
 
 ## 10.Como copiar una archivo .iso de distribucion live de linux a una USB por medio del comando "dd"?
 * Primero necesitamos descargar una iso, en este caso usamos la iso de Ubuntu que se guardo en la carpeta de descargas.
