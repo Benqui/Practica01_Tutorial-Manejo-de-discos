@@ -123,5 +123,9 @@ Seguimos los pasos para montar una memoria usb del paso 2, para despues una vez 
 
 ## 10.Como copiar una archivo .iso de distribucion live de linux a una USB por medio del comando "dd"?
 * Primero necesitamos descargar una iso, en este caso usamos la iso de Ubuntu que se guardo en la carpeta de descargas.
+![Parte 2](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part9_2.jpg)     
 * Una vez descargada conectamos la usb y realizamos el siguiente comando en la terminal escribirmos ```sudo dd if=/[Direccions del iso] of=/[Nombre de la particion] satatus progress```     
+![Parte 1](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part9_1.jpg)     
+![Parte 3](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part9_3.jpg)     
+
 
