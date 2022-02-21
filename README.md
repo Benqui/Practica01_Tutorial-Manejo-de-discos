@@ -45,9 +45,15 @@ Seguimos los pasos para montar una memoria usb del paso 2, para despues una vez 
 [inserte imagen aca]    
 
 
-
-
 ## 6.Como borrar todas las particiones de un USB en terminal?
+* Para esto vamos a usar el comando ```sudo fdisk /dev/sd#```    
+* Se vera que ahora es diferente como se ve la teminal, ahora se ve asi    
+* Esta es la lista de comandos que podemos desplegar con la leta "m"   
+* Lo que vamos a hacer es borrar las particiones que tenemos, que en este caso tenemos 3 particiones a borrar
+* Como muestra la lista de comandos para borrar tenemos que usar el comando "d" y sale lo siguiente:
+* Te va a dar a escoger que particion quieres eliminar una vez seleccionado puedes comprobar que se elimino usando el comando "p"
+* Una vez eliminadas todas las particiones usas el comando "w" para salir y guardar los cambios
+* *OJO* cabe destacar que solo tienes que tener la USB *conectada* pero *NO MONTADA* por que sino te va a marcar error al querer guardar los cambios a las tablas de las particiones
 
 ## 7.Como crear en el USB tres particiones fisicsa y una extendida en terminal?
 
