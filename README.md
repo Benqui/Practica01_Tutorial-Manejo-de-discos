@@ -40,7 +40,7 @@ Hay dos formas en las cuales puedes montar una memoria USB, la primera es sin te
 ## 3.Como enlistar la informacion de los dispositivos de bloque conectados aunque no esten conectados?
 Existen 3 comandos con las cuales se puede realizar un listado de dispositivos de bloques esten montados o no lo esten:
 1. Usando el comando ```lsblk```, con este comando se va a mostrar un el listado de dispositivos de bloques dentro de toda la informacion que muestra lo mas importante son los puntos de montajes donde estan los dispositivos    
-![Parte 1](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part2_1.jpg)
+![Parte 1](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part2_1.png)
 2. Usando el comando ```sudo blkid```, con este comando la informacion que se muestra es informacion especifica de los dispositivos como el sistema de archivos que utuliza
 ![Parte 2](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part2_2.jpg)
 3. Usando el comando ```sudo fdisk -l```, con este comando muestra cosas como el tipo de etiqueta de disco, el indetidicador y las particiones que tiene con el espacio que ocupan, basicamente muestra las tablas de particiones de los discos
@@ -48,7 +48,7 @@ Existen 3 comandos con las cuales se puede realizar un listado de dispositivos d
 
 ## 4.Como mostrar la tabla de particiones del disco donde esta instalado el sistema operativo en terminal?
 Para esto usamos el comando ```sudo fdisk -l``` sirve para ver las particiones de los dispositivos de bloques, para ver de manera especifica tienes que agregar como argumento a parte la direccion en este caso de donde esta instalado, esto se puede sabes con las instrucciones que vimos en el punto anterior, el comando que usas entonces es ```sudo fdisk -l /dev/direccion donde esta instalado el sistema operativo```    
-[inserte imagen aqui]    
+![Parte 1](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part3_1.jpg)    
 Aqui podemos ver que particion es el boot, donde esta instalado tu sistema operativo, etc.    
 
 ## 5.Como conectar una memoria USB y mostrar su tabla de particiones en terminal?
