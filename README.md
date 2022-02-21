@@ -90,9 +90,13 @@ Seguimos los pasos para montar una memoria usb del paso 2, para despues una vez 
 
 ## 8.Como crear una particion dentro de la particion extendida del USB en terminal?
 * Una vez ya creadas las particiones del punto anterior, volveremos a usar el comando ```sudo fdisk /dev/sd#``` y *crearemos una nueva particion*
+![Parte 1](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part7_1.jpg)     
 * Antes de continuar quiero explicar que una vez creada la particion __Extendida__ las siguientes particiones que crees seran __particiones logicas__ creadas en la particion extendida
+![Parte 2](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part7_2.jpg)     
 * El proceso es casi igual al proceso del punto anterior solo que ahora no te pide el tipo de particion sera (primaria o extendida) solo te pedira el __First Sector__ al cual le vamos a dar ```enter``` y el __Last Sector__ aqui pondras la memoria que le vas a asignar. Podemos ver que se creo la particion con el comando ```p```
+![Parte 3](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part7_3.jpg)     
 * Puedes repetir el proceso dependiendo si te queda espacio en la memoria extendida
+![Parte 4](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part7_4.jpg)     
 * *OJO* si borras la particion extrendida *Se borraran las particiones logicas que hayas creado*, las puedes recuperar si sale si y no guardas los cambios
 
 ## 9.Como borrar las particiones para que solo exista una particion que abarque toda la usb por la interfaz grafica disks?
