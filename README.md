@@ -83,7 +83,7 @@ Seguimos los pasos para montar una memoria usb del paso 2, para despues una vez 
 * Creamos 2 particiones mas     
 ![Parte 4](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/part6_4.jpg)     
 * Ahora para crear una particion extendida seleccionamos ```n``` y ahora escogemos la opcion ```e``` que es la opcion extendida y damos enter ya que solo nos queda una particion damos ```Enter``` __First Sector__ damos ```Enter```, para __Last Sector__ igual damos ```Enter``` para dejar de default lo que queda de la memoria de la USB     
-![Parte 5](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/Part6_5.jpg)     
+![Parte 5](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/part6_5.jpg)     
 * Damos ```w``` para salir y guardar las particiones
 ![Parte 8](https://github.com/Benqui/Practica01_Tutorial-Manejo-de-discos/blob/main/media/part5_8.jpg)     
 * Ahora ya tenemos las 3 particiones fisicas y la extendida
