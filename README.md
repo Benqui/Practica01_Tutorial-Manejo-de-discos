@@ -48,16 +48,23 @@ Seguimos los pasos para montar una memoria usb del paso 2, para despues una vez 
 ## 6.Como borrar todas las particiones de un USB en terminal?
 * Para esto vamos a usar el comando ```sudo fdisk /dev/sd#```    
 * Se vera que ahora es diferente como se ve la teminal, ahora se ve asi    
-* Esta es la lista de comandos que podemos desplegar con la leta "m"   
+* Esta es la lista de comandos que podemos desplegar con la leta ```m```   
 * Lo que vamos a hacer es borrar las particiones que tenemos, que en este caso tenemos 3 particiones a borrar
-* Como muestra la lista de comandos para borrar tenemos que usar el comando "d" y sale lo siguiente:
-* Te va a dar a escoger que particion quieres eliminar una vez seleccionado puedes comprobar que se elimino usando el comando "p"
-* Una vez eliminadas todas las particiones usas el comando "w" para salir y guardar los cambios
+* Como muestra la lista de comandos para borrar tenemos que usar el comando ```d``` y sale lo siguiente:
+* Te va a dar a escoger que particion quieres eliminar una vez seleccionado puedes comprobar que se elimino usando el comando ```p```
+* Una vez eliminadas todas las particiones usas el comando ```w``` para salir y guardar los cambios
 * *OJO* cabe destacar que solo tienes que tener la USB *conectada* pero *NO MONTADA* por que sino te va a marcar error al querer guardar los cambios a las tablas de las particiones
 
 ## 7.Como crear en el USB tres particiones fisicsa y una extendida en terminal?
+* Empezamos con el comando ```sudo fdisk /dev/sd#```
+* Ahora para crear particiones fisicas necesitamos oprimir la tecla ```n``` para crear una nueva particion selecccionamos el numero de la particion que vamos a crear en este caso el __1__, para el __First Sector__ damos ```Enter```, para __Last Sector__ tenemos que dar la capacidad de memoria
+    - Para comprobar que si se creo la particion imprimimos la lista con la letra ```p```
+* Creamos 2 particiones mas
+* Ahora para crear una particion extendida seleccionamos ```n``` y ahora escogemos la opcion ```e``` que es la opcion extendida y damos enter ya que solo nos queda una particion damos ```Enter``` __First Sector__ damos ```Enter```, para __Last Sector__ igual damos ```Enter``` para dejar de default lo que queda de la memoria de la USB
+* Ahora ya tenemos las 3 particiones fisicas y la extendida
 
-## 8.Como crear una particion dentre ode la particion extendida del USB en terminal?
+## 8.Como crear una particion dentro de la particion extendida del USB en terminal?
+
 
 ## 9.Como borrar las particiones para que solo exista una particion que abasque toda la usb por la interfaz grafica?
 
